@@ -138,7 +138,7 @@ endorse this unofficial release merely because they are credited here.
 
 ## Support this port
 
-[☕ Buy me a coffee](https://buymeacoffee.com/VOeVodA)
+[![☕ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%20Buy%20Me%20a%20Coffee-FFDD00?style=flat-square)](https://buymeacoffee.com/VOeVodA)
 
 Donations are entirely optional and support maintenance of this unofficial Quest port.
 The mod remains free, and donating is not required to download or use it.
