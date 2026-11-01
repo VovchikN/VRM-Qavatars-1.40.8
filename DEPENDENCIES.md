@@ -7,7 +7,7 @@ The mod is not a self-contained binary. The main QMod supplies
 | --- | --- | --- |
 | beatsaber-hook | 6.4.2 | Manifest download URL |
 | custom-types | 0.18.4 | Manifest download URL |
-| assimp | 5.3.3 | Install the supplied Scotland2 QMod first |
+| assimp | 5.3.3 | Manifest download URL; supplied QMod as manual fallback |
 | bsml | 0.4.55 | Manifest download URL |
 | chatplex-sdk-bs | 6.4.5 | Manifest download URL |
 | paper2_scotland2 | 4.8.0 | Manifest download URL |
@@ -33,9 +33,12 @@ SHA-256 of `libassimp.so`:
 
 The original upstream QMod lacks Scotland2 metadata and can trigger a
 QuestLoader repatch prompt. Keep Scotland2 and use the supplied corrected QMod.
-Automatic Assimp downloading can be enabled only after its own release asset
-has been published and verified. The prepared local main QMod intentionally
-requires this dependency to be installed first.
+The final main QMod uses the published Scotland2 asset below for automatic
+installation by compatible online installers. The public download was verified
+byte-for-byte before adding it to the manifest. Manual installation remains
+available if a download fails.
+
+https://github.com/VovchikN/VRM-Qavatars-1.40.8/releases/download/assimp-5.3.3-scotland2/assimp-5.3.3-Scotland2-1.40.8.qmod
 
 ## Build-time inputs
 

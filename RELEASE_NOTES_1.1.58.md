@@ -15,8 +15,10 @@ Port publication account: [VovchikN](https://github.com/VovchikN).
 ## Install and configure
 
 Requires **Beat Saber 1.40.8_7379**, **Scotland2**, and the declared dependencies.
-Install the supplied **Assimp 5.3.3 Scotland2 QMod first**, then the main QMod.
-Other dependency downloads use the manifest links when supported by the installer.
+Install the main QMod with a compatible online installer. The manifest includes
+a verified download URL for **Assimp 5.3.3 Scotland2** and the other declared
+dependencies. If dependency downloading fails, install the supplied compatible
+Assimp QMod manually first.
 Do not use the legacy QuestLoader Assimp package or repatch to QuestLoader.
 
 Place your own avatars in:

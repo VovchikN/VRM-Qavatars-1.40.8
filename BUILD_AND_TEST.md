@@ -44,7 +44,7 @@ object count and embedded shader identity. It requires the historical beta.5.5
 full archive as its baseline. `tools/package-qmod.py` verifies archive entries,
 manifest loader/version, ELF class/architecture and absence of TEXTREL.
 
-Publication: upload the corrected Assimp QMod before enabling automatic Assimp
-installation. Only then pass its verified release asset URL using the packager's
-`--assimp-url` argument. The currently prepared package requires manual Assimp
-installation and never points at the incompatible legacy QMod.
+The packager defaults to the published Scotland2 Assimp asset URL. Its public
+download was verified byte-for-byte before this default was added.
+`--assimp-url` can explicitly select another verified release asset owned by
+VovchikN. The incompatible upstream QuestLoader download is never used.

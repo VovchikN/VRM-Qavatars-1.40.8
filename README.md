@@ -33,10 +33,11 @@ tracking and game hit detection under the game's control.
 1. Use Beat Saber **1.40.8_7379**, already patched with **Scotland2**. Back up your
    current mod installation/settings before upgrading. QuestPatcher is an installer;
    it is not the mod loader.
-2. Install **`assimp-5.3.3-Scotland2-1.40.8.qmod`** supplied alongside this release,
-   unless this exact compatible dependency is already installed. The original
-   upstream Assimp QMod has legacy QuestLoader metadata. Do not repatch the game
-   to QuestLoader in response to that old dependency package.
+2. The final manifest includes a download URL for the compatible **Assimp 5.3.3
+   Scotland2** package. A compatible online installer can download missing
+   dependencies automatically. If downloading fails, manually install the supplied
+   **`assimp-5.3.3-Scotland2-1.40.8.qmod`** first. The original upstream Assimp QMod
+   has legacy QuestLoader metadata; do not repatch the game to QuestLoader.
 3. Install **`VRM-Qavatars-1.1.58-BS1.40.8.qmod`** using QuestPatcher or another
    Scotland2-compatible QMod installer. Keep an internet connection available for
    the dependency URLs declared in the manifest. See [dependencies](DEPENDENCIES.md).
