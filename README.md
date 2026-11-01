@@ -134,12 +134,3 @@ Please report port-specific bugs to the port repository, including the game/mod
 versions, replay mod, avatar format and a relevant log excerpt. Remove personal
 information from logs before posting. Original developers do not maintain or
 endorse this unofficial release merely because they are credited here.
-
-
-## Support this port
-
-[![☕ Buy Me a Coffee](https://img.shields.io/badge/%E2%98%95%20Buy%20Me%20a%20Coffee-FFDD00?style=flat-square)](https://buymeacoffee.com/VOeVodA)
-
-Donations are entirely optional and support maintenance of this unofficial Quest port.
-The mod remains free, and donating is not required to download or use it.
-Support goes to VovchikN for this port; original VRM Qavatars authorship and credits remain unchanged.
